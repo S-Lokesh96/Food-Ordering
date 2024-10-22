@@ -56,9 +56,9 @@ public class DAO {
             ps.setString(3, o2.getItems());
             ps.setInt(4, o2.getQuantity());
             ps.setDouble(5, o2.getPrice());
-            ps.setString(6, o2.getStatuss()); // Assuming getStatuss() method exists
-            ps.setString(7, o2.getPayment_Mode()); // Assuming getPayment_Mode() method exists
-            ps.setInt(8, o2.getOrder_id()); // Use the order_id to identify the record to update
+            ps.setString(6, o2.getStatuss()); 
+            ps.setString(7, o2.getPayment_Mode()); 
+            ps.setInt(8, o2.getOrder_id()); 
 
             ps.executeUpdate();
             System.out.println("record Updated");
