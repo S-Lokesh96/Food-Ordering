@@ -3,8 +3,7 @@ package org.example;
 import java.sql.Connection;
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
         Connection con = Connections.getCon();
@@ -98,6 +97,6 @@ public class Main {
 //            default:
 //                System.out.println("Enter valid choice");
         }
-//        DAO.selectQuery(con);
+
     }
 }
